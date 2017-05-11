@@ -25,10 +25,24 @@
 .header_nav li{
     width: auto;
     height: 100%;
+    line-height: 36px;
     float: left;
 }
 .header_nav li.separator{
     width: 1px;
     height: 16px;
+    margin: 10px 12px;
     background: #cccccc;
 }
+.header_nav li.shopping_cart a{
+    padding-left: 18px;
+    background: url("../img/shopingCart.png") no-repeat 0px 0px;
+}
+.header_nav li.shopping_cart a span{
+    color: #ff0000;
+}
+.header_nav li.complain {
+    padding-left: 14px;
+    background: url("../img/complain.png") no-repeat 0px 9px;
+}
+/*logo和搜索框样式*/
