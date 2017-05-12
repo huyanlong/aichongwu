@@ -3,12 +3,12 @@ body{
 }
 .banner{
     width: 100%;
-    height: 650px;
+    height: 600px;
     overflow: hidden;
     position: relative;
 }
 .banner ul{
-    width: 9600px;
+    width: 7680px;
     height: 100%;
     position: absolute;
     left: 50%;
@@ -20,6 +20,7 @@ body{
     height: 100%;
     float: left;
 }
+
 
 /*皇家宠粮样式*/
 .main01{
@@ -72,9 +73,9 @@ body{
     margin-right: 4px;
 }
 .royal_food .content:hover{
-    -webkit-box-shadow: inset 0 0 5px #ff6a55;
-    -moz-box-shadow: inset 0 0 5px #ff6a55;
-    box-shadow: inset 0 0 5px #ff6a55;
+    -webkit-box-shadow: inset 0 0 5px #333;
+    -moz-box-shadow: inset 0 0 5px #333;
+    box-shadow: inset 0 0 5px #333;
 }
 .royal_food .content:hover .title{
     -webkit-transition: all 0.5s;
