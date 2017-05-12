@@ -1,6 +1,9 @@
+body{
+    height: 5000px;
+}
 .banner{
     width: 100%;
-    height: 800px;
+    height: 650px;
     overflow: hidden;
     position: relative;
 }
@@ -16,4 +19,68 @@
     width: 1920px;
     height: 100%;
     float: left;
+}
+
+/*皇家宠粮样式*/
+.main01{
+    width: 100%;
+    height: 175px;
+    margin-top: 14px;
+    background: #e0ddd8;
+}
+.royal_food{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.royal_food .content{
+    width: 365px;
+    height: 100%;
+    float: left;
+    margin-left: 35px;
+    position: relative;
+}
+.royal_food .content a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.royal_food .content .title{
+    width: 175px;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.royal_food .content .title p{
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 50px;
+    color: #666666;
+}
+.royal_food .content .title h3{
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 25px;
+    color: #ff6a55;
+}
+.royal_food .content .pic{
+    float: right;
+    margin-top: 28px;
+    margin-right: 4px;
+}
+.royal_food .content:hover{
+    -webkit-box-shadow: inset 0 0 5px #ff6a55;
+    -moz-box-shadow: inset 0 0 5px #ff6a55;
+    box-shadow: inset 0 0 5px #ff6a55;
+}
+.royal_food .content:hover .title{
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    background: none;
 }
