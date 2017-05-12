@@ -85,3 +85,14 @@ body{
     transition: all 0.5s;
     background: none;
 }
+
+/*领券中心样式*/
+.main02{
+    width: 1200px;
+    height: 440px;
+    padding-top: 60px;
+    margin: 0 auto;
+    background: url("../img/cartCenter.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
